@@ -1,0 +1,21 @@
+{
+  "name": "mushroom-run",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny hand-crafted Mario-style platformer built with Phaser 3.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/press-start-2p": "^5.2.7",
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7"
+  }
+}
